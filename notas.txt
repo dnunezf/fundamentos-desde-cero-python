@@ -1,0 +1,9 @@
+Notas sobre el curso fundamentos-desde-cero en Python
+
+Repositorio interesante:
+https://github.com/Asabeneh/30-Days-Of-Python
+
+Doc. oficial Python:
+https://www.python.org/
+
+Type = Función que hace algo, le pasas un parámetro y actúa.
