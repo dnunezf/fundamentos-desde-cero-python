@@ -1,20 +1,17 @@
 # Listas = Es una estructura, estructurar datos. Ya nos provee operaciones de
 # insercion, ordenacion, a la hora de contar tamaños. Es un conjunto de datos,
 # en la que añado elementos en una posición. Forma de agrupar datos, siguiendo 
-# un orden.
+# un orden. Es mutable.
 
-my_list = list() 
+my_list = list() # Se define una lista como constructor
 my_other_list = [] 
-
 print(len(my_list))
 
 my_list = [35, 24, 62, 52, 30, 30, 17]
-
 print(my_list)
 print(len(my_list))
 
 my_other_list = [21, 1.72, "David", "Nunez"] # No hace falta guardar el mismo tipo de dato en una lista
-
 print(type(my_list))
 print(type(my_other_list))
 
@@ -34,23 +31,18 @@ print(age)
 print(my_list + my_other_list) # COoncatenamos 2 listas
 
 my_other_list.append("UNA") # INserta dato al final
-
 print(my_other_list)
 
 my_other_list.insert(1, "Negro") # Inserta dato en n posicion
-
 print(my_other_list)
 
 my_other_list[1] = "Verde" # Al igualar, modificamos el dato que habiamos insertado anteriormente, con base a su indice
-
 print(my_other_list)
 
 my_other_list.remove("Verde") # Elimina el dato a seleccionar
-
 print(my_other_list)
 
 my_list.remove(30) # Se ha eliminado el primer dato '30', distinto al del que elimina por indice
-
 print(my_list)
 
 print(my_list.pop()) # Pop = elimina el ultimo dato (lo conserva en memoria), devuelve el valor que desapilamos. Hacemos print unicamente para nosotros entender lo que retorna la funcion
