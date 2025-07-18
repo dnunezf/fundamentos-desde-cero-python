@@ -79,7 +79,7 @@ print(my_new_list)
 print(my_new_list[1:2]) # Entre el elemento 1 y 2, esta el 30
 print(my_new_list[1:3]) # Entre el elemento 1 y 3, esta el 30, 35
 
-# Tipado dinamico, cambiamos el tipo de dato 
+# Tipado dinamico, cambiamos el tipo de dato, aplicando el concepto de variable.
 my_list = "Hola Python"
 print(my_list)
 print(type(my_list))
