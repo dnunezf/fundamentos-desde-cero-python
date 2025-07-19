@@ -1,6 +1,6 @@
 # Set = De base tiene un array. Es un conjunto, coleccion no ordenada de elementos únicos.
 # No permite elementos duplicados y no tiene un orden definido, por lo que no se pueden acceder
-# a sus valores por indice.
+# a sus valores por indice. Un set por dentro funciona con un hash map.
 
 my_set = set() # Se define un set como constructor
 my_other_set = {}
