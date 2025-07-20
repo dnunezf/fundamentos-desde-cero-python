@@ -1,0 +1,1 @@
+    my_condition += 1 # Incrementa el valor de my_condition
