@@ -68,6 +68,7 @@ print_texts_loop("Hola", "Python", "David")
 
 # For loop en una funcion
 def print_texts_upper(*texts):
+    print(type(texts))
     for text in texts:
         print(text.upper())
 
