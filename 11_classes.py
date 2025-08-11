@@ -46,7 +46,7 @@ my_other_person.walk()
 my_other_person.full_name = "Hector de Leon (El Loco de los perros)"
 print(my_other_person.full_name)
 
-# Python es de debil tipado
+# Python es de tipado dinamico
 my_other_person.full_name = 666
 print(my_other_person.full_name)
 
